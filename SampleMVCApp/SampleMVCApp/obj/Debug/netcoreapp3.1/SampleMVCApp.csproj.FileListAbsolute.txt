@@ -108,3 +108,4 @@ Z:\Desktop\work\vagrant\asp_net_core_test\SampleMVCApp\SampleMVCApp\obj\Debug\ne
 Z:\Desktop\work\vagrant\asp_net_core_test\SampleMVCApp\SampleMVCApp\obj\Debug\netcoreapp3.1\SampleMVCApp.dll
 Z:\Desktop\work\vagrant\asp_net_core_test\SampleMVCApp\SampleMVCApp\obj\Debug\netcoreapp3.1\SampleMVCApp.pdb
 Z:\Desktop\work\vagrant\asp_net_core_test\SampleMVCApp\SampleMVCApp\obj\Debug\netcoreapp3.1\SampleMVCApp.genruntimeconfig.cache
+Z:\Desktop\work\vagrant\asp_net_core_test\SampleMVCApp\SampleMVCApp\obj\Debug\netcoreapp3.1\Razor\Views\Hello\index.cshtml.g.cs
