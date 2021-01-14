@@ -9,7 +9,14 @@ namespace SampleMVCApp.Controllers
     public class HelloController : Controller
     {
 
-        public List<string> list;
+        [Route("Hello/{id?}/{name?}")]
+        public IActionResult Index(int id, string name)
+        {
+            ViewData["message"] = "id = " + id + ", name = " + name;
+            return View();
+        }
+
+/*        public List<string> list;
 
         public HelloController()
         {
@@ -22,18 +29,24 @@ namespace SampleMVCApp.Controllers
         public IActionResult Index()
         {
             ViewData["message"] = "Select item:";
-            ViewData["list"] = "";
-            ViewData["listdata"] = "list";
+            ViewData["list"] = new string[] { };
+            ViewData["listdata"] = list;
             return View();
         }
 
         [HttpPost]
         public IActionResult Form(string name, string mail, string tel)
         {
-            ViewData["message"] = '"' + Request.Form["list"] + '"' + " selected." ;
+            string[] res = (string[])Request.Form["list"];
+            string msg = "*";
+            foreach(var item in res)
+            {
+                msg += "「" + item + "」";
+            }
+            ViewData["message"] = msg + " selected." ;
             ViewData["list"] = Request.Form["list"];
             ViewData["listdata"] = list;
             return View("index");
         }
-    }
+*/    }
 }
