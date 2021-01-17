@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{F8009A84-14C4-463B-B97F-9407991AF531}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleMVCApp/Controllers/HelloController.cs">
+    <Files>
+      <File FileName="SampleMVCApp/Controllers/HelloController.cs" Line="36" Column="23" />
+      <File FileName="SampleMVCApp/Views/Hello/index.cshtml" Line="8" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SampleMVCApp" expanded="True">
+            <Node name="SampleMVCApp" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HelloController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Hello" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SampleMVCApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

@@ -4,29 +4,68 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace SampleMVCApp.Controllers
 {
     public class HelloController : Controller
     {
-
-        [Route("Hello/{id?}/{name?}")]
+        [HttpGet("Hello/{id?}/{name?}")]
         public IActionResult Index(int id, string name)
-    {
+	    {
         ViewData["message"] = "*セッションにIDとNameを保存しました。";
-        HttpContext.Session.SetInt32("id", id);
-        HttpContext.Session.SetString("name", name);
+	    MyData ob = new MyData(id, name);
+        HttpContext.Session.Set("object", ObjectToBytes(ob));
+	    ViewData["object"] = ob; 
         return View();
-
         }
 
-        [HttpGet]
-    public IActionResult Other()
+		[HttpGet]
+	    public IActionResult Other()
+	    {
+		ViewData["message"] = "保存されたセッションの値を表示します。";
+	    byte[] ob = HttpContext.Session.Get("object");
+	    ViewData["object"] = BytesToObject(ob);
+	    return View("index");
+        }
+
+        //convert object to byte[].
+        private byte[] ObjectToBytes(Object ob)
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            MemoryStream ms = new MemoryStream();
+            bf.Serialize(ms, ob);
+            return ms.ToArray();
+	    }
+
+        //convert byte[] to object.
+        private Object BytesToObject(byte[] arr)
+        {
+            MemoryStream ms = new MemoryStream();
+            BinaryFormatter bf = new BinaryFormatter();
+            ms.Write(arr, 0, arr.Length);
+            ms.Seek(0, SeekOrigin.Begin);
+            return (Object)bf.Deserialize(ms);
+	    }
+    }
+
+    [Serializable]
+    class MyData 
     {
-        ViewData["id"] = HttpContext.Session.GetInt32("id");
-        ViewData["name"] = HttpContext.Session.GetString("name");
-        ViewData["message"] = "保存されたセッションの値を表示します。";
-            return View("index");
+        public int Id = 0;
+        public string Name = "";
+
+        public MyData(int id, string name) 
+		{
+            this.Id = id;
+            this.Name = name;
+		}
+
+        public override string ToString()
+        {
+			return "<" + Id + ": " + Name + ">";
         }
     }
+
 }

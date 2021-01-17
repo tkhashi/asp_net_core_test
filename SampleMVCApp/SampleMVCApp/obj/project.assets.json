@@ -6069,26 +6069,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\takahashikazuhiro\\.nuget\\packages\\": {}
+    "/Users/takahashikazuhiro/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Desktop\\work\\vagrant\\asp_net_core_test\\SampleMVCApp\\SampleMVCApp\\SampleMVCApp.csproj",
+      "projectUniqueName": "/Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleMVCApp/SampleMVCApp/SampleMVCApp.csproj",
       "projectName": "SampleMVCApp",
-      "projectPath": "Z:\\Desktop\\work\\vagrant\\asp_net_core_test\\SampleMVCApp\\SampleMVCApp\\SampleMVCApp.csproj",
-      "packagesPath": "C:\\Users\\takahashikazuhiro\\.nuget\\packages\\",
-      "outputPath": "Z:\\Desktop\\work\\vagrant\\asp_net_core_test\\SampleMVCApp\\SampleMVCApp\\obj\\",
+      "projectPath": "/Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleMVCApp/SampleMVCApp/SampleMVCApp.csproj",
+      "packagesPath": "/Users/takahashikazuhiro/.nuget/packages/",
+      "outputPath": "/Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleMVCApp/SampleMVCApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\takahashikazuhiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/takahashikazuhiro/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6130,7 +6128,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }
