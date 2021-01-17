@@ -1,17 +1,16 @@
 ﻿<Properties StartupConfiguration="{F8009A84-14C4-463B-B97F-9407991AF531}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SampleMVCApp/Controllers/HelloController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleMVCApp/Views/Hello/index.cshtml">
     <Files>
-      <File FileName="SampleMVCApp/Controllers/HelloController.cs" Line="36" Column="23" />
-      <File FileName="SampleMVCApp/Views/Hello/index.cshtml" Line="8" Column="48" />
+      <File FileName="SampleMVCApp/Views/Hello/index.cshtml" Line="8" Column="5" />
+      <File FileName="SampleMVCApp/Controllers/HelloController.cs" Line="19" Column="36" />
+      <File FileName="SampleMVCApp/Views/Hello/_table.cshtml" Line="4" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SampleMVCApp" expanded="True">
             <Node name="SampleMVCApp" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HelloController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
