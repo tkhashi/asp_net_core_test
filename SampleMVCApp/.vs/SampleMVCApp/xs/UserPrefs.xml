@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{F8009A84-14C4-463B-B97F-9407991AF531}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="SampleMVCApp/Views/Hello/index.cshtml">
     <Files>
-      <File FileName="SampleMVCApp/Views/Hello/index.cshtml" Line="8" Column="5" />
+      <File FileName="SampleMVCApp/Views/Hello/index.cshtml" Line="6" Column="1" />
       <File FileName="SampleMVCApp/Controllers/HelloController.cs" Line="19" Column="36" />
       <File FileName="SampleMVCApp/Views/Hello/_table.cshtml" Line="4" Column="1" />
     </Files>
