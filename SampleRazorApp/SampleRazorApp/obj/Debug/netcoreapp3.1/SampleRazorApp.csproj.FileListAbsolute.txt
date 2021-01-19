@@ -7,7 +7,6 @@
 /Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleRazorApp/SampleRazorApp/bin/Debug/netcoreapp3.1/SampleRazorApp.pdb
 /Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleRazorApp/SampleRazorApp/bin/Debug/netcoreapp3.1/SampleRazorApp.Views.dll
 /Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleRazorApp/SampleRazorApp/bin/Debug/netcoreapp3.1/SampleRazorApp.Views.pdb
-/Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleRazorApp/SampleRazorApp/obj/Debug/netcoreapp3.1/SampleRazorApp.csprojAssemblyReference.cache
 /Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleRazorApp/SampleRazorApp/obj/Debug/netcoreapp3.1/SampleRazorApp.AssemblyInfoInputs.cache
 /Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleRazorApp/SampleRazorApp/obj/Debug/netcoreapp3.1/SampleRazorApp.AssemblyInfo.cs
 /Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleRazorApp/SampleRazorApp/obj/Debug/netcoreapp3.1/SampleRazorApp.csproj.CoreCompileInputs.cache
