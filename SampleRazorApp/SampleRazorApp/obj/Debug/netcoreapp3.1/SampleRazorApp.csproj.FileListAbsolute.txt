@@ -34,3 +34,4 @@
 /Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleRazorApp/SampleRazorApp/obj/Debug/netcoreapp3.1/SampleRazorApp.pdb
 /Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleRazorApp/SampleRazorApp/obj/Debug/netcoreapp3.1/SampleRazorApp.genruntimeconfig.cache
 /Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleRazorApp/SampleRazorApp/obj/Debug/netcoreapp3.1/SampleRazorApp.csproj.CopyComplete
+/Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleRazorApp/SampleRazorApp/obj/Debug/netcoreapp3.1/SampleRazorApp.csprojAssemblyReference.cache
