@@ -14,7 +14,7 @@
         "outputPath": "/Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleMVCApp/SampleMVCApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/takahashikazuhiro/.nuget/NuGet/NuGet.Config"
+          "/Users/takahashikazuhiro/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

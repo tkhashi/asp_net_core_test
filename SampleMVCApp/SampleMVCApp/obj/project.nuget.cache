@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AMQN3zo9jdEADgZKrUTAsw82gBYNb1JHHmu+K8sIswwkYs5ocoZ8n+Bbiiuoa53BwtDjlOGHsMDLiDMT7ySZEA==",
+  "dgSpecHash": "VLlq+xJFWQZtlXEp4XY0OGsMvpoimphSulCPan9hbjNzUFKRKg7SCP1ZZJ94hOMjLTm6iT8ndLZyA7/+Or2TAw==",
   "success": true,
   "projectFilePath": "/Users/takahashikazuhiro/Desktop/work/vagrant/asp_net_core_test/SampleMVCApp/SampleMVCApp/SampleMVCApp.csproj",
   "expectedPackageFiles": [
