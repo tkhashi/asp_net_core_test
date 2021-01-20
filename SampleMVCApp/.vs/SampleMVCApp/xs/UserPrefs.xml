@@ -1,24 +1,32 @@
 ﻿<Properties StartupConfiguration="{F8009A84-14C4-463B-B97F-9407991AF531}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SampleMVCApp/Views/Hello/index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleMVCApp/Controllers/PeopleController.cs">
     <Files>
-      <File FileName="SampleMVCApp/Views/Hello/index.cshtml" Line="12" Column="2" />
+      <File FileName="SampleMVCApp/Views/Hello/index.cshtml" Line="14" Column="1" IsPinned="True" />
       <File FileName="SampleMVCApp/Controllers/HelloController.cs" />
       <File FileName="SampleMVCApp/Views/Hello/_table.cshtml" />
+      <File FileName="SampleMVCApp/Models/Person.cs" Line="13" Column="35" />
+      <File FileName="SampleMVCApp/Startup.cs" Line="29" Column="27" />
+      <File FileName="SampleMVCApp/Data/SampleMVCAppContext.cs" Line="6" Column="27" />
+      <File FileName="SampleMVCApp/Controllers/PeopleController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SampleMVCApp" expanded="True">
             <Node name="SampleMVCApp" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="PeopleController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Hello" expanded="True">
-                  <Node name="index.cshtml" selected="True" />
-                </Node>
+                <Node name="Hello" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
